@@ -13,7 +13,7 @@ public class Program {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Insira o número de contribuintes: ");
+		System.out.print("Insira o número de contribuintes: ");
 		int n = sc.nextInt();
 		sc.nextLine();
 		List<Contribuinte> contribuintes = new ArrayList<>();

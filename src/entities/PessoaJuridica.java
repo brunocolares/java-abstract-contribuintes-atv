@@ -32,7 +32,7 @@ public class PessoaJuridica extends Contribuinte {
 	
 	@Override
 	public String exibeInfo() {
-		return super.exibeInfo() + String.format("%nNúmero funcionários: %.2f, Imposto pago: %.2f", numeroFuncionarios, impostoPago());
+		return super.exibeInfo() + String.format("%nNúmero funcionários: %d, Imposto pago: %.2f", numeroFuncionarios, impostoPago());
 		
 	}
 }
